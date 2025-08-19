@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Новый профиль",
+    "Projects": [
+      {
+        "Path": "MyApp.Api\\MyApp.Api.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "MyApp.Mvc\\MyApp.Mvc.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
