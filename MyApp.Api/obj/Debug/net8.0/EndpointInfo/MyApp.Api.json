@@ -14,6 +14,14 @@
           "200": {
             "description": "OK",
             "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/DepartmentDto"
+                  }
+                }
+              },
               "application/json": {
                 "schema": {
                   "type": "array",
@@ -22,7 +30,7 @@
                   }
                 }
               },
-              "application/xml": {
+              "text/json": {
                 "schema": {
                   "type": "array",
                   "items": {
@@ -162,11 +170,6 @@
         ],
         "requestBody": {
           "content": {
-            "application/json-patch+json": {
-              "schema": {
-                "$ref": "#/components/schemas/StudentCreateDto"
-              }
-            },
             "application/json": {
               "schema": {
                 "$ref": "#/components/schemas/StudentCreateDto"
@@ -178,21 +181,6 @@
               }
             },
             "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/StudentCreateDto"
-              }
-            },
-            "application/xml": {
-              "schema": {
-                "$ref": "#/components/schemas/StudentCreateDto"
-              }
-            },
-            "text/xml": {
-              "schema": {
-                "$ref": "#/components/schemas/StudentCreateDto"
-              }
-            },
-            "application/*+xml": {
               "schema": {
                 "$ref": "#/components/schemas/StudentCreateDto"
               }
@@ -223,60 +211,6 @@
         "responses": {
           "200": {
             "description": "OK"
-          }
-        }
-      }
-    },
-    "/WeatherForecast": {
-      "get": {
-        "tags": [
-          "WeatherForecast"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
-                  }
-                }
-              },
-              "application/xml": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
-                  }
-                }
-              },
-              "text/xml": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
-                  }
-                }
-              }
-            }
           }
         }
       }
@@ -349,29 +283,6 @@
           },
           "department": {
             "$ref": "#/components/schemas/DepartmentDto"
-          }
-        },
-        "additionalProperties": false
-      },
-      "WeatherForecast": {
-        "type": "object",
-        "properties": {
-          "date": {
-            "type": "string",
-            "format": "date"
-          },
-          "temperatureC": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "temperatureF": {
-            "type": "integer",
-            "format": "int32",
-            "readOnly": true
-          },
-          "summary": {
-            "type": "string",
-            "nullable": true
           }
         },
         "additionalProperties": false

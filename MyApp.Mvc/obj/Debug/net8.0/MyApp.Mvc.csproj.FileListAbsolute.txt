@@ -38,3 +38,4 @@ C:\Users\qacay\source\repos\MyApp\MyApp.Mvc\obj\Debug\net8.0\refint\MyApp.Mvc.dl
 C:\Users\qacay\source\repos\MyApp\MyApp.Mvc\obj\Debug\net8.0\MyApp.Mvc.pdb
 C:\Users\qacay\source\repos\MyApp\MyApp.Mvc\obj\Debug\net8.0\MyApp.Mvc.genruntimeconfig.cache
 C:\Users\qacay\source\repos\MyApp\MyApp.Mvc\obj\Debug\net8.0\ref\MyApp.Mvc.dll
+C:\Users\qacay\source\repos\MyApp\MyApp.Mvc\obj\Debug\net8.0\MyApp.Mvc.sourcelink.json

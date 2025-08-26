@@ -17,5 +17,7 @@ namespace MyApp.Api.Dtos
         [Required, EmailAddress] public string Email { get; set; }
         [Required] public string Gender { get; set; }
         [Required] public int DepartmentId { get; set; }
+
+        public string DepartmentName { get; set; }
     }
 }

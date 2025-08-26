@@ -1,31 +1,40 @@
-using AutoMapper;
+﻿using AutoMapper;
 using Microsoft.EntityFrameworkCore;
 using MyApp.Api.Data;
-using MyApp.Api.Filters;
 using MyApp.Api.Mapping;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddControllers(options =>
-{
-    options.Filters.Add<ExceptionFilter>();
-    options.Filters.Add<ValidationFilter>();
-})
-.AddNewtonsoftJson()
-.AddXmlSerializerFormatters();
+//Services registration
 
-builder.Services.AddDbContext<ModelContext>(opt =>
-    opt.UseOracle(builder.Configuration.GetConnectionString("OracleDb")));
+// Подключение DbContext к Oracle
+builder.Services.AddDbContext<ModelContext>(options =>
+    options.UseOracle(builder.Configuration.GetConnectionString("OracleDb")));
 
-builder.Services.AddAutoMapper(typeof(AppMappingProfile));
+//Контроллеры (API)
+builder.Services.AddControllers();
 
-builder.Services.AddCors(o => o.AddPolicy("AllowAll", p => p.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod()));
+//AutoMapper
+builder.Services.AddAutoMapper(typeof(MappingProfile));
 
+//Swagger
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowUI", policy =>
+    {
+        policy.WithOrigins("https://localhost:7091") // sənin MVC UI portun
+              .AllowAnyHeader()
+              .AllowAnyMethod();
+    });
+});
+
+
 var app = builder.Build();
 
+//Middleware pipeline
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -33,6 +42,14 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-app.UseCors("AllowAll");
+
+app.UseAuthorization();
+
+app.UseCors("AllowUI");
+
+
 app.MapControllers();
+
+
+
 app.Run();

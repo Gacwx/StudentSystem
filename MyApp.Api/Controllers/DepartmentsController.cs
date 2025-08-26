@@ -1,25 +1,35 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using AutoMapper;
-using MyApp.Api.Data;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Mvc;
+using MyApp.Api.Models;
 using MyApp.Api.Dtos;
 
 namespace MyApp.Api.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    [Produces("application/json", "application/xml")] 
     public class DepartmentsController : ControllerBase
     {
-        private readonly ModelContext _db;
         private readonly IMapper _mapper;
-        public DepartmentsController(ModelContext db, IMapper mapper) { _db = db; _mapper = mapper; }
+
+        public DepartmentsController(IMapper mapper)
+        {
+            _mapper = mapper;
+        }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<DepartmentDto>>> GetAll()
+        public ActionResult<IEnumerable<DepartmentDto>> Get()
         {
-            var list = await _db.Departments.AsNoTracking().ToListAsync();
-            return Ok(_mapper.Map<IEnumerable<DepartmentDto>>(list));
+            var departments = new List<Department>
+            {
+                new Department { Id = 1, Name = "Computer Science" },
+                new Department { Id = 2, Name = "Mathematics" },
+                new Department { Id = 3, Name = "Physics" },
+                new Department { Id = 4, Name = "Biology" },
+                new Department { Id = 5, Name = "Engineering" }
+            };
+
+            var result = _mapper.Map<List<DepartmentDto>>(departments);
+            return Ok(result);
         }
     }
 }

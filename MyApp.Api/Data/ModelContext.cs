@@ -25,7 +25,7 @@ namespace MyApp.Api.Data
             modelBuilder.Entity<Student>().Property(s => s.Name).HasColumnName("NAME");
             modelBuilder.Entity<Student>().Property(s => s.Email).HasColumnName("EMAIL");
             modelBuilder.Entity<Student>().Property(s => s.Gender).HasColumnName("GENDER");
-            modelBuilder.Entity<Student>().Property(s => s.DepartmentId).HasColumnName("DEPARTMENTID");
+            modelBuilder.Entity<Student>().Property(s => s.DepartmentId).HasColumnName("DEPARTMENTID_NEW");
 
             modelBuilder.Entity<Student>()
                 .HasOne(s => s.Department)

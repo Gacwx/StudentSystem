@@ -22,10 +22,6 @@ C:\Users\qacay\source\repos\MyApp\MyApp.Api\bin\Debug\net8.0\Microsoft.Extension
 C:\Users\qacay\source\repos\MyApp\MyApp.Api\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\qacay\source\repos\MyApp\MyApp.Api\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 C:\Users\qacay\source\repos\MyApp\MyApp.Api\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
-C:\Users\qacay\source\repos\MyApp\MyApp.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\qacay\source\repos\MyApp\MyApp.Api\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\qacay\source\repos\MyApp\MyApp.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\qacay\source\repos\MyApp\MyApp.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\qacay\source\repos\MyApp\MyApp.Api\bin\Debug\net8.0\Microsoft.OpenApi.dll
 C:\Users\qacay\source\repos\MyApp\MyApp.Api\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\qacay\source\repos\MyApp\MyApp.Api\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
@@ -69,3 +65,4 @@ C:\Users\qacay\source\repos\MyApp\MyApp.Api\obj\Debug\net8.0\refint\MyApp.Api.dl
 C:\Users\qacay\source\repos\MyApp\MyApp.Api\obj\Debug\net8.0\MyApp.Api.pdb
 C:\Users\qacay\source\repos\MyApp\MyApp.Api\obj\Debug\net8.0\MyApp.Api.genruntimeconfig.cache
 C:\Users\qacay\source\repos\MyApp\MyApp.Api\obj\Debug\net8.0\ref\MyApp.Api.dll
+C:\Users\qacay\source\repos\MyApp\MyApp.Api\obj\Debug\net8.0\MyApp.Api.sourcelink.json

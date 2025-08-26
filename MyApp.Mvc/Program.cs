@@ -1,11 +1,14 @@
+using System.Net.Http.Headers;
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViews().AddNewtonsoftJson();
 
-builder.Services.AddHttpClient("Api", (sp, client) =>
+builder.Services.AddHttpClient("Api", client =>
 {
-    var cfg = sp.GetRequiredService<IConfiguration>();
-    client.BaseAddress = new Uri(cfg["ApiBaseUrl"]!);
+    client.BaseAddress = new Uri("https://localhost:7260/"); // port of your WebAPI project
+    client.DefaultRequestHeaders.Accept.Add(
+        new MediaTypeWithQualityHeaderValue("application/json"));
 });
 
 var app = builder.Build();
@@ -16,6 +19,7 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+app.UseAuthorization();
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();

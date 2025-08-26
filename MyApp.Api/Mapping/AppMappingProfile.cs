@@ -4,12 +4,15 @@ using MyApp.Api.Dtos;
 
 namespace MyApp.Api.Mapping
 {
-    public class AppMappingProfile : Profile
+    public class MappingProfile : Profile
     {
-        public AppMappingProfile()
+        public MappingProfile()
         {
+            
             CreateMap<Department, DepartmentDto>().ReverseMap();
-            CreateMap<Student, StudentDto>();
+
+            
+            CreateMap<Student, StudentDto>().ReverseMap();
             CreateMap<StudentCreateDto, Student>();
         }
     }

@@ -1,73 +1,115 @@
-﻿@{
-    ViewData["Title"] = "Students";
-    var deps = ViewBag.Departments as List<MyApp.Mvc.Controllers.DepartmentVm> ?? new();
+﻿@using MyApp.Mvc.Models
+@model IEnumerable<StudentVm>
+@{
+    var deps = ViewBag.Departments as List<DepartmentVm> ?? new();
 }
-<h1>Students</h1>
+
+<h2>Students</h2>
+
 <label>Department:</label>
-<select id="deptSelect">
-    <option value="">-- All --</option>
+<select id="departmentSelect" class="form-select">
+    <option value="">-- All Departments --</option>
     @foreach (var d in deps)
     {
         <option value="@d.Id">@d.Name</option>
     }
 </select>
-<button id="filterBtn">Filter</button>
 
-<table id="studentsTable" border="1" style="margin-top:10px;">
-    <thead><tr><th>Name</th><th>Email</th><th>Gender</th><th>Department</th></tr></thead>
-    <tbody></tbody>
+<table class="table" id="studentsTable">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Gender</th>
+            <th>Department</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var s in Model)
+        {
+            <tr>
+                <td>@s.Name</td>
+                <td>@s.Email</td>
+                <td>@s.Gender</td>
+                <td>@s.Department?.Name</td>
+            </tr>
+        }
+    </tbody>
 </table>
 
-<hr />
 <h3>Create student</h3>
 <form id="createForm">
-    <input id="name" placeholder="Name" />
-    <input id="email" placeholder="Email" />
-    <select id="gender"><option>Male</option><option>Female</option></select>
+    <input id="name" placeholder="Name" required />
+    <input id="email" placeholder="Email" type="email" required />
+    <select id="gender">
+        <option>Male</option>
+        <option>Female</option>
+    </select>
     <select id="departmentId">
-        @foreach (var d in deps) { <option value="@d.Id">@d.Name</option> }
+        @foreach (var d in deps)
+        {
+            <option value="@d.Id">@d.Name</option>
+        }
     </select>
     <button type="submit">Create</button>
 </form>
 
-@section Scripts{
 <script>
-    const apiBase = '@@(Context.RequestServices.GetService<IConfiguration>["ApiBaseUrl"])';
+    const tableBody = document.querySelector('#studentsTable tbody');
+    const deptSelect = document.getElementById('departmentSelect');
 
-    async function loadStudents(deptId){
-        let url = `${apiBase}/api/students`;
-        if (deptId) url += `?departmentId=${deptId}`;
-        const r = await fetch(url, { headers: { 'Accept': 'application/json' } });
-        if (!r.ok) { alert('Error loading'); return; }
-        const data = await r.json();
-        const tbody = document.querySelector('#studentsTable tbody');
-        tbody.innerHTML='';
-        data.forEach(s=>{
-            const tr = document.createElement('tr');
-            tr.innerHTML = `<td>${esc(s.name)}</td><td>${esc(s.email)}</td><td>${esc(s.gender)}</td><td>${esc(s.department?.name||'')}</td>`;
-            tbody.appendChild(tr);
-        });
-    }
-    function esc(t){return (t||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;','\'':'&#39;'}[c]));}
-
-    document.getElementById('filterBtn').addEventListener('click',()=>{
-        const id = document.getElementById('deptSelect').value; loadStudents(id);
+    // Filter AJAX
+    deptSelect.addEventListener('change', function() {
+        const deptId = this.value;
+        fetch(`/Home/GetStudentsByDepartment?departmentId=${deptId}`)
+            .then(res => res.json())
+            .then(data => {
+                tableBody.innerHTML = '';
+                data.forEach(s => {
+                    const tr = document.createElement('tr');
+                    tr.innerHTML = `
+                        <td>${s.name}</td>
+                        <td>${s.email}</td>
+                        <td>${s.gender}</td>
+                        <td>${s.departmentName || ''}</td>
+                    `;
+                    tableBody.appendChild(tr);
+                });
+            })
+            .catch(err => console.error(err));
     });
 
-    document.getElementById('createForm').addEventListener('submit', async (e)=>{
+    // Create student AJAX
+    const createForm = document.getElementById('createForm');
+    createForm.addEventListener('submit', function(e) {
         e.preventDefault();
-        const name = document.getElementById('name').value.trim();
-        const email = document.getElementById('email').value.trim();
-        const gender = document.getElementById('gender').value;
-        const departmentId = document.getElementById('departmentId').value;
-        if(!name){alert('Name required');return;}
-        if(!/^[^@@\s]+@@[^@@\s]+\.[^@@\s]+$/.test(email)){alert('Invalid email');return;}
-        const body = { name, email, gender, departmentId: parseInt(departmentId) };
-        const r = await fetch(`${apiBase}/api/students`, { method:'POST', headers:{'Content-Type':'application/json','Accept':'application/json'}, body: JSON.stringify(body) });
-        if(r.status===201){ alert('Created'); loadStudents(); }
-        else{ const err = await r.json().catch(()=>({})); alert('Error: '+JSON.stringify(err)); }
-    });
 
-    loadStudents();
+        const student = {
+            name: document.getElementById('name').value,
+            email: document.getElementById('email').value,
+            gender: document.getElementById('gender').value,
+            departmentId: parseInt(document.getElementById('departmentId').value)
+        };
+
+        fetch('/Home/CreateStudent', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(student)
+        })
+        .then(res => res.json())
+        .then(s => {
+            if (!deptSelect.value || deptSelect.value === s.departmentId.toString()) {
+                const tr = document.createElement('tr');
+                tr.innerHTML = `
+                    <td>${s.name}</td>
+                    <td>${s.email}</td>
+                    <td>${s.gender}</td>
+                    <td>${s.departmentName || ''}</td>
+                `;
+                tableBody.appendChild(tr);
+            }
+            createForm.reset();
+        })
+        .catch(err => console.error(err));
+    });
 </script>
-}

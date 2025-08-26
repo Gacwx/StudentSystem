@@ -3,32 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\qacay\\source\\repos\\MyApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F25C096D-7143-4F2E-AB7B-0F14992AB818}|MyApp.Api\\MyApp.Api.csproj|c:\\users\\qacay\\source\\repos\\myapp\\myapp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F25C096D-7143-4F2E-AB7B-0F14992AB818}|MyApp.Api\\MyApp.Api.csproj|solutionrelative:myapp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{09153A51-F07A-45DE-82E8-FFBFB218D51A}|MyApp.Mvc\\MyApp.Mvc.csproj|c:\\users\\qacay\\source\\repos\\myapp\\myapp.mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{09153A51-F07A-45DE-82E8-FFBFB218D51A}|MyApp.Mvc\\MyApp.Mvc.csproj|solutionrelative:myapp.mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F25C096D-7143-4F2E-AB7B-0F14992AB818}|MyApp.Api\\MyApp.Api.csproj|c:\\users\\qacay\\source\\repos\\myapp\\myapp.api\\dtos\\studentdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F25C096D-7143-4F2E-AB7B-0F14992AB818}|MyApp.Api\\MyApp.Api.csproj|solutionrelative:myapp.api\\dtos\\studentdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{09153A51-F07A-45DE-82E8-FFBFB218D51A}|MyApp.Mvc\\MyApp.Mvc.csproj|c:\\users\\qacay\\source\\repos\\myapp\\myapp.mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09153A51-F07A-45DE-82E8-FFBFB218D51A}|MyApp.Mvc\\MyApp.Mvc.csproj|solutionrelative:myapp.mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F25C096D-7143-4F2E-AB7B-0F14992AB818}|MyApp.Api\\MyApp.Api.csproj|c:\\users\\qacay\\source\\repos\\myapp\\myapp.api\\data\\modelcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F25C096D-7143-4F2E-AB7B-0F14992AB818}|MyApp.Api\\MyApp.Api.csproj|solutionrelative:myapp.api\\data\\modelcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{09153A51-F07A-45DE-82E8-FFBFB218D51A}|MyApp.Mvc\\MyApp.Mvc.csproj|c:\\users\\qacay\\source\\repos\\myapp\\myapp.mvc\\models\\studentvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09153A51-F07A-45DE-82E8-FFBFB218D51A}|MyApp.Mvc\\MyApp.Mvc.csproj|solutionrelative:myapp.mvc\\models\\studentvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09153A51-F07A-45DE-82E8-FFBFB218D51A}|MyApp.Mvc\\MyApp.Mvc.csproj|c:\\users\\qacay\\source\\repos\\myapp\\myapp.mvc\\models\\departmentvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09153A51-F07A-45DE-82E8-FFBFB218D51A}|MyApp.Mvc\\MyApp.Mvc.csproj|solutionrelative:myapp.mvc\\models\\departmentvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F25C096D-7143-4F2E-AB7B-0F14992AB818}|MyApp.Api\\MyApp.Api.csproj|c:\\users\\qacay\\source\\repos\\myapp\\myapp.api\\dtos\\departmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F25C096D-7143-4F2E-AB7B-0F14992AB818}|MyApp.Api\\MyApp.Api.csproj|solutionrelative:myapp.api\\dtos\\departmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F25C096D-7143-4F2E-AB7B-0F14992AB818}|MyApp.Api\\MyApp.Api.csproj|c:\\users\\qacay\\source\\repos\\myapp\\myapp.api\\mapping\\appmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F25C096D-7143-4F2E-AB7B-0F14992AB818}|MyApp.Api\\MyApp.Api.csproj|solutionrelative:myapp.api\\mapping\\appmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F25C096D-7143-4F2E-AB7B-0F14992AB818}|MyApp.Api\\MyApp.Api.csproj|c:\\users\\qacay\\source\\repos\\myapp\\myapp.api\\filters\\exceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F25C096D-7143-4F2E-AB7B-0F14992AB818}|MyApp.Api\\MyApp.Api.csproj|solutionrelative:myapp.api\\filters\\exceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F25C096D-7143-4F2E-AB7B-0F14992AB818}|MyApp.Api\\MyApp.Api.csproj|c:\\users\\qacay\\source\\repos\\myapp\\myapp.api\\filters\\validationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F25C096D-7143-4F2E-AB7B-0F14992AB818}|MyApp.Api\\MyApp.Api.csproj|solutionrelative:myapp.api\\filters\\validationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F25C096D-7143-4F2E-AB7B-0F14992AB818}|MyApp.Api\\MyApp.Api.csproj|c:\\users\\qacay\\source\\repos\\myapp\\myapp.api\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,32 +31,28 @@
       "RelativeMoniker": "D:0:0:{F25C096D-7143-4F2E-AB7B-0F14992AB818}|MyApp.Api\\MyApp.Api.csproj|solutionrelative:myapp.api\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09153A51-F07A-45DE-82E8-FFBFB218D51A}|MyApp.Mvc\\MyApp.Mvc.csproj|c:\\users\\qacay\\source\\repos\\myapp\\myapp.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09153A51-F07A-45DE-82E8-FFBFB218D51A}|MyApp.Mvc\\MyApp.Mvc.csproj|solutionrelative:myapp.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F25C096D-7143-4F2E-AB7B-0F14992AB818}|MyApp.Api\\MyApp.Api.csproj|c:\\users\\qacay\\source\\repos\\myapp\\myapp.api\\dtos\\studentdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F25C096D-7143-4F2E-AB7B-0F14992AB818}|MyApp.Api\\MyApp.Api.csproj|solutionrelative:myapp.api\\dtos\\studentdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09153A51-F07A-45DE-82E8-FFBFB218D51A}|MyApp.Mvc\\MyApp.Mvc.csproj|c:\\users\\qacay\\source\\repos\\myapp\\myapp.mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09153A51-F07A-45DE-82E8-FFBFB218D51A}|MyApp.Mvc\\MyApp.Mvc.csproj|solutionrelative:myapp.mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09153A51-F07A-45DE-82E8-FFBFB218D51A}|MyApp.Mvc\\MyApp.Mvc.csproj|c:\\users\\qacay\\source\\repos\\myapp\\myapp.mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{09153A51-F07A-45DE-82E8-FFBFB218D51A}|MyApp.Mvc\\MyApp.Mvc.csproj|solutionrelative:myapp.mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F25C096D-7143-4F2E-AB7B-0F14992AB818}|MyApp.Api\\MyApp.Api.csproj|c:\\users\\qacay\\source\\repos\\myapp\\myapp.api\\data\\modelcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F25C096D-7143-4F2E-AB7B-0F14992AB818}|MyApp.Api\\MyApp.Api.csproj|solutionrelative:myapp.api\\data\\modelcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F25C096D-7143-4F2E-AB7B-0F14992AB818}|MyApp.Api\\MyApp.Api.csproj|c:\\users\\qacay\\source\\repos\\myapp\\myapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F25C096D-7143-4F2E-AB7B-0F14992AB818}|MyApp.Api\\MyApp.Api.csproj|solutionrelative:myapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F25C096D-7143-4F2E-AB7B-0F14992AB818}|MyApp.Api\\MyApp.Api.csproj|c:\\users\\qacay\\source\\repos\\myapp\\myapp.api\\mapping\\appmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F25C096D-7143-4F2E-AB7B-0F14992AB818}|MyApp.Api\\MyApp.Api.csproj|solutionrelative:myapp.api\\mapping\\appmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09153A51-F07A-45DE-82E8-FFBFB218D51A}|MyApp.Mvc\\MyApp.Mvc.csproj|c:\\users\\qacay\\source\\repos\\myapp\\myapp.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09153A51-F07A-45DE-82E8-FFBFB218D51A}|MyApp.Mvc\\MyApp.Mvc.csproj|solutionrelative:myapp.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{09153A51-F07A-45DE-82E8-FFBFB218D51A}|MyApp.Mvc\\MyApp.Mvc.csproj|c:\\users\\qacay\\source\\repos\\myapp\\myapp.mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{09153A51-F07A-45DE-82E8-FFBFB218D51A}|MyApp.Mvc\\MyApp.Mvc.csproj|solutionrelative:myapp.mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F25C096D-7143-4F2E-AB7B-0F14992AB818}|MyApp.Api\\MyApp.Api.csproj|c:\\users\\qacay\\source\\repos\\myapp\\myapp.api\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F25C096D-7143-4F2E-AB7B-0F14992AB818}|MyApp.Api\\MyApp.Api.csproj|solutionrelative:myapp.api\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F25C096D-7143-4F2E-AB7B-0F14992AB818}|MyApp.Api\\MyApp.Api.csproj|c:\\users\\qacay\\source\\repos\\myapp\\myapp.api\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F25C096D-7143-4F2E-AB7B-0F14992AB818}|MyApp.Api\\MyApp.Api.csproj|solutionrelative:myapp.api\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,212 +62,173 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\qacay\\source\\repos\\MyApp\\MyApp.Api\\appsettings.json",
-              "RelativeDocumentMoniker": "MyApp.Api\\appsettings.json",
-              "ToolTip": "C:\\Users\\qacay\\source\\repos\\MyApp\\MyApp.Api\\appsettings.json",
-              "RelativeToolTip": "MyApp.Api\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-15T10:18:55.864Z",
+              "DocumentIndex": 3,
+              "Title": "DepartmentVm.cs",
+              "DocumentMoniker": "C:\\Users\\qacay\\source\\repos\\MyApp\\MyApp.Mvc\\Models\\DepartmentVm.cs",
+              "RelativeDocumentMoniker": "MyApp.Mvc\\Models\\DepartmentVm.cs",
+              "ToolTip": "C:\\Users\\qacay\\source\\repos\\MyApp\\MyApp.Mvc\\Models\\DepartmentVm.cs",
+              "RelativeToolTip": "MyApp.Mvc\\Models\\DepartmentVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T08:18:25.995Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 2,
+              "Title": "StudentVm.cs",
+              "DocumentMoniker": "C:\\Users\\qacay\\source\\repos\\MyApp\\MyApp.Mvc\\Models\\StudentVm.cs",
+              "RelativeDocumentMoniker": "MyApp.Mvc\\Models\\StudentVm.cs",
+              "ToolTip": "C:\\Users\\qacay\\source\\repos\\MyApp\\MyApp.Mvc\\Models\\StudentVm.cs",
+              "RelativeToolTip": "MyApp.Mvc\\Models\\StudentVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T08:17:24.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\qacay\\source\\repos\\MyApp\\MyApp.Mvc\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "MyApp.Mvc\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\qacay\\source\\repos\\MyApp\\MyApp.Mvc\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "MyApp.Mvc\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAhwDwAAABEAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\qacay\\source\\repos\\MyApp\\MyApp.Mvc\\Views\\Home\\Index.cshtml*",
+              "RelativeToolTip": "MyApp.Mvc\\Views\\Home\\Index.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-08-15T10:07:11.746Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 1,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\qacay\\source\\repos\\MyApp\\MyApp.Mvc\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "MyApp.Mvc\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\qacay\\source\\repos\\MyApp\\MyApp.Mvc\\Controllers\\HomeController.cs",
               "RelativeToolTip": "MyApp.Mvc\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwCQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-15T10:06:36.325Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DepartmentDto.cs",
+              "DocumentMoniker": "C:\\Users\\qacay\\source\\repos\\MyApp\\MyApp.Api\\Dtos\\DepartmentDto.cs",
+              "RelativeDocumentMoniker": "MyApp.Api\\Dtos\\DepartmentDto.cs",
+              "ToolTip": "C:\\Users\\qacay\\source\\repos\\MyApp\\MyApp.Api\\Dtos\\DepartmentDto.cs",
+              "RelativeToolTip": "MyApp.Api\\Dtos\\DepartmentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T07:21:07.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "C:\\Users\\qacay\\source\\repos\\MyApp\\MyApp.Api\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "MyApp.Api\\Controllers\\StudentsController.cs",
+              "ToolTip": "C:\\Users\\qacay\\source\\repos\\MyApp\\MyApp.Api\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "MyApp.Api\\Controllers\\StudentsController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwDQAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T09:44:33.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StudentDtos.cs",
+              "DocumentMoniker": "C:\\Users\\qacay\\source\\repos\\MyApp\\MyApp.Api\\Dtos\\StudentDtos.cs",
+              "RelativeDocumentMoniker": "MyApp.Api\\Dtos\\StudentDtos.cs",
+              "ToolTip": "C:\\Users\\qacay\\source\\repos\\MyApp\\MyApp.Api\\Dtos\\StudentDtos.cs",
+              "RelativeToolTip": "MyApp.Api\\Dtos\\StudentDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T10:21:25.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DepartmentsController.cs",
+              "DocumentMoniker": "C:\\Users\\qacay\\source\\repos\\MyApp\\MyApp.Api\\Controllers\\DepartmentsController.cs",
+              "RelativeDocumentMoniker": "MyApp.Api\\Controllers\\DepartmentsController.cs",
+              "ToolTip": "C:\\Users\\qacay\\source\\repos\\MyApp\\MyApp.Api\\Controllers\\DepartmentsController.cs",
+              "RelativeToolTip": "MyApp.Api\\Controllers\\DepartmentsController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBsAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T16:23:15.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\qacay\\source\\repos\\MyApp\\MyApp.Api\\Program.cs",
+              "RelativeDocumentMoniker": "MyApp.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\qacay\\source\\repos\\MyApp\\MyApp.Api\\Program.cs",
+              "RelativeToolTip": "MyApp.Api\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAwwCkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T09:09:24.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ModelContext.cs",
+              "DocumentMoniker": "C:\\Users\\qacay\\source\\repos\\MyApp\\MyApp.Api\\Data\\ModelContext.cs",
+              "RelativeDocumentMoniker": "MyApp.Api\\Data\\ModelContext.cs",
+              "ToolTip": "C:\\Users\\qacay\\source\\repos\\MyApp\\MyApp.Api\\Data\\ModelContext.cs",
+              "RelativeToolTip": "MyApp.Api\\Data\\ModelContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T09:50:30.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\qacay\\source\\repos\\MyApp\\MyApp.Mvc\\Program.cs",
               "RelativeDocumentMoniker": "MyApp.Mvc\\Program.cs",
               "ToolTip": "C:\\Users\\qacay\\source\\repos\\MyApp\\MyApp.Mvc\\Program.cs",
               "RelativeToolTip": "MyApp.Mvc\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBcAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-15T10:06:22.549Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "StudentsController.cs",
-              "DocumentMoniker": "C:\\Users\\qacay\\source\\repos\\MyApp\\MyApp.Api\\Controllers\\StudentsController.cs",
-              "RelativeDocumentMoniker": "MyApp.Api\\Controllers\\StudentsController.cs",
-              "ToolTip": "C:\\Users\\qacay\\source\\repos\\MyApp\\MyApp.Api\\Controllers\\StudentsController.cs",
-              "RelativeToolTip": "MyApp.Api\\Controllers\\StudentsController.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAswEoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T10:04:48.438Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DepartmentsController.cs",
-              "DocumentMoniker": "C:\\Users\\qacay\\source\\repos\\MyApp\\MyApp.Api\\Controllers\\DepartmentsController.cs",
-              "RelativeDocumentMoniker": "MyApp.Api\\Controllers\\DepartmentsController.cs",
-              "ToolTip": "C:\\Users\\qacay\\source\\repos\\MyApp\\MyApp.Api\\Controllers\\DepartmentsController.cs",
-              "RelativeToolTip": "MyApp.Api\\Controllers\\DepartmentsController.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAcwBgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T10:04:11.327Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ValidationFilter.cs",
-              "DocumentMoniker": "C:\\Users\\qacay\\source\\repos\\MyApp\\MyApp.Api\\Filters\\ValidationFilter.cs",
-              "RelativeDocumentMoniker": "MyApp.Api\\Filters\\ValidationFilter.cs",
-              "ToolTip": "C:\\Users\\qacay\\source\\repos\\MyApp\\MyApp.Api\\Filters\\ValidationFilter.cs",
-              "RelativeToolTip": "MyApp.Api\\Filters\\ValidationFilter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T10:03:50.696Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ExceptionFilter.cs",
-              "DocumentMoniker": "C:\\Users\\qacay\\source\\repos\\MyApp\\MyApp.Api\\Filters\\ExceptionFilter.cs",
-              "RelativeDocumentMoniker": "MyApp.Api\\Filters\\ExceptionFilter.cs",
-              "ToolTip": "C:\\Users\\qacay\\source\\repos\\MyApp\\MyApp.Api\\Filters\\ExceptionFilter.cs",
-              "RelativeToolTip": "MyApp.Api\\Filters\\ExceptionFilter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T10:03:28.848Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "AppMappingProfile.cs",
               "DocumentMoniker": "C:\\Users\\qacay\\source\\repos\\MyApp\\MyApp.Api\\Mapping\\AppMappingProfile.cs",
               "RelativeDocumentMoniker": "MyApp.Api\\Mapping\\AppMappingProfile.cs",
               "ToolTip": "C:\\Users\\qacay\\source\\repos\\MyApp\\MyApp.Api\\Mapping\\AppMappingProfile.cs",
               "RelativeToolTip": "MyApp.Api\\Mapping\\AppMappingProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAewA8AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T10:02:55.559Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StudentDtos.cs",
-              "DocumentMoniker": "C:\\Users\\qacay\\source\\repos\\MyApp\\MyApp.Api\\Dtos\\StudentDtos.cs",
-              "RelativeDocumentMoniker": "MyApp.Api\\Dtos\\StudentDtos.cs",
-              "ToolTip": "C:\\Users\\qacay\\source\\repos\\MyApp\\MyApp.Api\\Dtos\\StudentDtos.cs",
-              "RelativeToolTip": "MyApp.Api\\Dtos\\StudentDtos.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAkwBQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T10:02:15.692Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DepartmentDto.cs",
-              "DocumentMoniker": "C:\\Users\\qacay\\source\\repos\\MyApp\\MyApp.Api\\Dtos\\DepartmentDto.cs",
-              "RelativeDocumentMoniker": "MyApp.Api\\Dtos\\DepartmentDto.cs",
-              "ToolTip": "C:\\Users\\qacay\\source\\repos\\MyApp\\MyApp.Api\\Dtos\\DepartmentDto.cs",
-              "RelativeToolTip": "MyApp.Api\\Dtos\\DepartmentDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T10:01:48.87Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ModelContext.cs",
-              "DocumentMoniker": "C:\\Users\\qacay\\source\\repos\\MyApp\\MyApp.Api\\Data\\ModelContext.cs",
-              "RelativeDocumentMoniker": "MyApp.Api\\Data\\ModelContext.cs",
-              "ToolTip": "C:\\Users\\qacay\\source\\repos\\MyApp\\MyApp.Api\\Data\\ModelContext.cs",
-              "RelativeToolTip": "MyApp.Api\\Data\\ModelContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T10:01:01.174Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\qacay\\source\\repos\\MyApp\\MyApp.Api\\Models\\Student.cs",
-              "RelativeDocumentMoniker": "MyApp.Api\\Models\\Student.cs",
-              "ToolTip": "C:\\Users\\qacay\\source\\repos\\MyApp\\MyApp.Api\\Models\\Student.cs",
-              "RelativeToolTip": "MyApp.Api\\Models\\Student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T10:00:30.634Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Department.cs",
-              "DocumentMoniker": "C:\\Users\\qacay\\source\\repos\\MyApp\\MyApp.Api\\Models\\Department.cs",
-              "RelativeDocumentMoniker": "MyApp.Api\\Models\\Department.cs",
-              "ToolTip": "C:\\Users\\qacay\\source\\repos\\MyApp\\MyApp.Api\\Models\\Department.cs",
-              "RelativeToolTip": "MyApp.Api\\Models\\Department.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T09:59:56.613Z",
+              "WhenOpened": "2025-08-24T09:08:58.74Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\qacay\\source\\repos\\MyApp\\MyApp.Api\\Program.cs",
-              "RelativeDocumentMoniker": "MyApp.Api\\Program.cs",
-              "ToolTip": "C:\\Users\\qacay\\source\\repos\\MyApp\\MyApp.Api\\Program.cs",
-              "RelativeToolTip": "MyApp.Api\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T09:23:06.072Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\qacay\\source\\repos\\MyApp\\MyApp.Mvc\\appsettings.json",
               "RelativeDocumentMoniker": "MyApp.Mvc\\appsettings.json",
               "ToolTip": "C:\\Users\\qacay\\source\\repos\\MyApp\\MyApp.Mvc\\appsettings.json",
               "RelativeToolTip": "MyApp.Mvc\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-08-15T09:19:18.201Z",
               "EditorCaption": ""
